@@ -1,8 +1,10 @@
+// code for scrolling into contact
 function contact() {
   const element = document.getElementById("contact");
   element.scrollIntoView();
 }
 
+// code for sending emails
 function sendEmail() {
   Email.send({
     SecureToken: "616dbe87-e608-4cb0-9157-e09b597f2123",
@@ -19,6 +21,7 @@ function sendEmail() {
   }).then((message) => alert(message));
 }
 
+// code for changing navbar bg color
 window.addEventListener("scroll", function () {
   const navbar = document.getElementById("navbar");
   if (window.scrollY > 50) {
@@ -28,13 +31,4 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("scroll");
     navbar.classList.add("transparent");
   }
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  const menuToggle = document.getElementById("menu-toggle");
-  const menu = document.getElementById("menu");
-
-  menuToggle.addEventListener("click", function () {
-    menu.classList.toggle("active");
-  });
 });
