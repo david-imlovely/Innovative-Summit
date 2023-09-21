@@ -215,6 +215,10 @@ p {
   margin: 0;
 }
 
+.event p {
+  color: white;
+}
+
 /* Footer */
 .footer {
   text-align: center;
