@@ -87,6 +87,20 @@ p {
   }
 }
 
+/*our sponsor/patner*/
+.sponsor-patner {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center; /* Vertical alignment of images and names */
+  flex-wrap: wrap;
+}
+
+.sponsor-patner-logo img {
+  width: 6rem;
+  height: auto;
+}
+
 .profile-card {
   width: 300px;
   background-color: #fff;
