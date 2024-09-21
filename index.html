@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="en">
   <head>
     <!-- meta tags -->
     <meta charset="UTF-8" />
@@ -25,273 +25,886 @@
     <meta property="og:url" content="https://www.theinnovativesummit.com/" />
 
     <!-- meta tag ends here -->
-
-    <title>Innovative Summit 2023 | Event Schedule</title>
-
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap&family=Russo+One&display=swap"
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Russo+One&display=swap"
       rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&family=Roboto:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <!-- google fonts end -->
-
-    <!-- style sheet -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Innovative Summit 2024 | Event Schedule</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <!-- hero section start -->
-    <div class="hero">
-      <!-- nav start  -->
+    <nav
+      id="navbar"
+      class="flex flex-wrap items-center justify-between px-4 fixed w-full z-20 mb-10 sm:mb-0"
+    >
+      <img src="/images/TIS(transparent)3.png" class="w-20" alt="" />
+      <div class="flex md:hidden">
+        <button id="hamburger">
+          <div class="toggle block">
+            <i class="fas fa-bars text-xl"></i>
+          </div>
+          <div class="toggle hidden">
+            <i class="fas fa-times text-xl"></i>
+          </div>
+        </button>
+      </div>
+      <div
+        class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0"
+      >
+        <a
+          href="index.html"
+          class="block md:inline-block py_text hover:text-teal-500 px-3 py-3"
+          >Home
+        </a>
+        <a
+          href="about.html"
+          class="block md:inline-block py_text hover:text-teal-500 px-3 py-3"
+          >About
+        </a>
+        <a
+          href="register.html"
+          class="block md:inline-block py_text hover:text-teal-500 px-3 py-3"
+          >Register
+        </a>
+        <a
+          href="gallery.html"
+          class="block md:inline-block py_text hover:text-teal-500 px-3 py-3"
+          >Gallery
+        </a>
+      </div>
+      <a
+        href="#"
+        class="toggle hidden md:flex md:w-auto px-4 py-2 text-right py_bg hover:bg-teal-500 text-white md:rounded mb-4"
+        >Register Now
+      </a>
+    </nav>
 
-      <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="images/TIS(transparent)1.png"
-              alt="innovative summit logo"
-              width="100"
-            />
-          </a>
-          <button
-            class="navbar-toggler bg-info"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
+    <section
+      class="relative pb-20 xl:pb-32 overflow-hidden"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url('/images/highlights/pic47.jpg');
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <div class="container px-4 mx-auto relative mt-32">
+        <div class="max-w-4xl mx-auto text-center" data-aos="zoom-in">
+          <div class="flex justify-center">
+            <img src="/images/logo_white.png" alt="" class="w-32" />
+          </div>
+          <div class="flex justify-center">
+            <h1
+              class="text-3xl sec_font md:text-6xl font-bold text-white mb-8 sm:mb-14 tracking-wide uppercase max-w-2xl"
+            >
+              Ignite Your Path to Financial Success.
+            </h1>
+          </div>
+        </div>
+        <div class="xl:flex justify-between items-end">
           <div
-            class="nav collapse navbar-collapse justify-content-end"
-            id="navbarNavAltMarkup"
+            class="md:flex justify-end max-w-xs sm:max-w-sm md:max-w-none ml-auto"
+            data-aos="fade-up"
           >
-            <div class="navbar-nav">
-              <a
-                class="nav-link underline"
-                aria-current="page"
-                href="index.html"
-                >Home</a
+            <div class="mb-6 md:mb-0 md:mr-8 pt-3 text-white">
+              <svg
+                width="{44}"
+                height="{10}"
+                viewBox="0 0 84 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-              <a class="nav-link underline" href="about.html">About</a>
-              <a class="underline nav-link" href="about.html?scroll=true"
-                >Contact</a
-              >
-              <a class="nav-link underline" href="register.html">Register</a>
-              <a class="nav-link underline" href="gallery.html">Gallery</a>
+                <path
+                  d="M1 4.25C0.585786 4.25 0.25 4.58579 0.25 5C0.25 5.41421 0.585786 5.75 1 5.75L1 4.25ZM84 5.00001L76.5 0.669879L76.5 9.33013L84 5.00001ZM1 5.75L77.25 5.75001L77.25 4.25001L1 4.25L1 5.75Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="max-w-md">
+              <p class="text-xs sm:text-lg text-gray-200 font-semibold">
+                Join us at the forefront of innovation, where we reshape careers
+                and transform futures for today’s ambitious students. The
+                Innovative Summit equips students with the tools, insights, and
+                connections they need to thrive beyond university.
+              </p>
             </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </section>
+    <section class="py-24 md:py-40">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap -m-8 xl:-m-16 xl:mb-14">
+          <div class="w-full md:w-5/12 p-8 xl:p-16">
+            <div
+              class="relative overflow-hidden rounded-3xl"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              style="height: 400px"
+            >
+              <img
+                class="absolute top-0 left-0 w-full h-full object-cover transform hover:scale-105 rounded-3xl transition duration-200"
+                src="/images/highlights/pic22.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="w-full md:w-7/12 p-8 xl:p-16"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <p class="mb-14 text-sm sm:text-lg text-gray-600">
+              The Innovative Summit is a Conference that seeks to helps students
+              to positively shapen their way of thinking, providing and
+              preparing them with the right mindset for the world beyond the
+              University walls. Henry Ford once said "Before everything else,
+              getting ready is the secret of success." We understand that before
+              any action or endeavor, thorough preparation is essential. Being
+              prepared involves having access to the right information that will
+              lead one on an easy part. We are a definition of the environment
+              we find ourselves in. If an environment constantly exposes its
+              youths to the possibilities of the outside word
+            </p>
+            <div class="flex mt-4">
+              <a
+                href="/about.html"
+                class="py-2 px-4 font-semibold text-white hover:text-white focus:text-white bg-blue-500 hover:bg-blue-600 rounded-lg transition duration-200"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-16">
+      <div class="container px-4 mx-auto">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          class="flex flex-wrap mb-16 -mx-4"
+        >
+          <div class="w-full lg:w-1/2 p-4">
+            <h2
+              class="text-4xl sm:text-6xl font-semibold max-w-sm lg:max-w-lg uppercase py_text"
+            >
+              Why Attend The Innovative Submit ?
+            </h2>
+          </div>
+          <div class="w-full lg:w-1/2 p-4">
+            <p class="text-gray-600 text-sm">
+              In our world today, finding your niche and building a successful
+              career can be challenging. This conference is designed to empower
+              students with the knowledge and connections they need to start
+              their journey towards financial success. We would be exploring the
+              theme "Money," focusing on practical strategies to help them
+              identify their unique strengths, connect with experienced mentors,
+              and turn their passions into profitable ventures.
+            </p>
+            <p class="text-gray-600 text-sm mt-2">
+              Through a series of engaging theme sessions, panel discussions,
+              and networking opportunities, they will gain insights into various
+              industries, learn how to make informed financial decisions, and
+              discover how to create opportunities that align with your goals.
+              Whether they're aspiring to be an entrepreneur, a creative
+              professional, or a leader in their field, this conference will
+              provide the tools and guidance needed to kickstart their career
+              and achieve financial independence.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap mb-16 -mx-4">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            class="w-full lg:w-1/2 p-4"
+          >
+            <div class="border-2 shadow rounded-3xl p-8">
+              <div class="rounded-2xl flex mb-4">
+                <div class="p-4 py_bg rounded-2xl">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewbox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M11.0001 2.66663V29.3333H10.4134C5.56008 29.3333 2.66675 26.44 2.66675 21.5866V10.4133C2.66675 5.55996 5.56008 2.66663 10.4134 2.66663H11.0001Z"
+                      fill="white"
+                    ></path>
+                    <path
+                      d="M28.8333 10.4133V14.5H13.5V3.16663H21.5867C23.9139 3.16663 25.7113 3.85839 26.9264 5.07351C28.1416 6.28864 28.8333 8.08606 28.8333 10.4133Z"
+                      fill="white"
+                      stroke="white"
+                    ></path>
+                    <path
+                      d="M29.3333 17V21.5867C29.3333 26.44 26.44 29.3333 21.5867 29.3333H13V17H29.3333Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div
+                  class="w-0.5 h-6 bg-orange-500 transform -translate-x-8"
+                ></div>
+                <h2 class="text-2xl text-gray-800 font-bold font-heading">
+                  Notable Speakers
+                </h2>
+              </div>
+              <p class="text-gray-600">
+                Access to listen to expert speakers with experience and results
+                who will provide you with significant knowledge required for
+                your growth in your field.
+              </p>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            class="w-full lg:w-1/2 p-4"
+          >
+            <div class="border-2 shadow rounded-3xl p-8">
+              <div class="rounded-2xl flex mb-4">
+                <div class="p-4 py_bg rounded-2xl">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewbox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M11.0001 2.66663V29.3333H10.4134C5.56008 29.3333 2.66675 26.44 2.66675 21.5866V10.4133C2.66675 5.55996 5.56008 2.66663 10.4134 2.66663H11.0001Z"
+                      fill="white"
+                    ></path>
+                    <path
+                      d="M28.8333 10.4133V14.5H13.5V3.16663H21.5867C23.9139 3.16663 25.7113 3.85839 26.9264 5.07351C28.1416 6.28864 28.8333 8.08606 28.8333 10.4133Z"
+                      fill="white"
+                      stroke="white"
+                    ></path>
+                    <path
+                      d="M29.3333 17V21.5867C29.3333 26.44 26.44 29.3333 21.5867 29.3333H13V17H29.3333Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div
+                  class="w-0.5 h-6 bg-orange-500 transform -translate-x-8"
+                ></div>
+                <h2 class="text-2xl text-gray-800 font-bold font-heading">
+                  Exposure
+                </h2>
+              </div>
+              <p class="text-gray-600">
+                Each attendee has the opportunity to gain knowledge in each
+                field either as a beginner or an intermediate.
+              </p>
+            </div>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            class="w-full lg:w-1/2 p-4"
+          >
+            <div class="border-2 shadow rounded-3xl p-8">
+              <div class="rounded-2xl flex mb-4">
+                <div class="p-4 py_bg rounded-2xl">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewbox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M11.0001 2.66663V29.3333H10.4134C5.56008 29.3333 2.66675 26.44 2.66675 21.5866V10.4133C2.66675 5.55996 5.56008 2.66663 10.4134 2.66663H11.0001Z"
+                      fill="white"
+                    ></path>
+                    <path
+                      d="M28.8333 10.4133V14.5H13.5V3.16663H21.5867C23.9139 3.16663 25.7113 3.85839 26.9264 5.07351C28.1416 6.28864 28.8333 8.08606 28.8333 10.4133Z"
+                      fill="white"
+                      stroke="white"
+                    ></path>
+                    <path
+                      d="M29.3333 17V21.5867C29.3333 26.44 26.44 29.3333 21.5867 29.3333H13V17H29.3333Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div
+                  class="w-0.5 h-6 bg-orange-500 transform -translate-x-8"
+                ></div>
+                <h2 class="text-2xl text-gray-800 font-bold font-heading">
+                  Meet with Investors
+                </h2>
+              </div>
+              <p class="text-gray-600">
+                This create an opportunity to meet and interact with leading
+                entrepreneurs, innovators and investors that can fund start-ups
+                and bringing them into life with sustainability.
+              </p>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            class="w-full lg:w-1/2 p-4"
+          >
+            <div class="border-2 shadow rounded-3xl p-8">
+              <div class="rounded-2xl flex mb-4">
+                <div class="p-4 py_bg rounded-2xl">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewbox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M11.0001 2.66663V29.3333H10.4134C5.56008 29.3333 2.66675 26.44 2.66675 21.5866V10.4133C2.66675 5.55996 5.56008 2.66663 10.4134 2.66663H11.0001Z"
+                      fill="white"
+                    ></path>
+                    <path
+                      d="M28.8333 10.4133V14.5H13.5V3.16663H21.5867C23.9139 3.16663 25.7113 3.85839 26.9264 5.07351C28.1416 6.28864 28.8333 8.08606 28.8333 10.4133Z"
+                      fill="white"
+                      stroke="white"
+                    ></path>
+                    <path
+                      d="M29.3333 17V21.5867C29.3333 26.44 26.44 29.3333 21.5867 29.3333H13V17H29.3333Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div
+                  class="w-0.5 h-6 bg-orange-500 transform -translate-x-8"
+                ></div>
+                <h2 class="text-2xl text-gray-800 font-bold font-heading">
+                  Networking
+                </h2>
+              </div>
+              <p class="text-gray-600">
+                This is a one time opportunity to meet people in the same field
+                and interest to build connection and create great
+                collaborations.
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <!-- nav ends here -->
+        <div class="flex flex-wrap mb-32 -mx-4">
+          <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+            <img
+              class="rounded-3xl object-cover w-full"
+              style="height: 320px"
+              src="/images/highlights//pic13.jpg"
+              alt=""
+            />
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+            <img
+              class="rounded-3xl object-cover w-full"
+              style="height: 320px"
+              src="/images/highlights//pic20.jpg"
+              alt=""
+            />
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+            <img
+              class="rounded-3xl object-cover w-full"
+              style="height: 320px"
+              src="/images/highlights//pic1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+            <img
+              class="rounded-3xl object-cover w-full"
+              style="height: 320px"
+              src="/images/highlights//pic12.jpg"
+              alt=""
+            />
+          </div>
+        </div>
 
-      <div class="intro">
-        <img
-          src="images/logo_white.png"
-          width="25%"
-          alt="innovative summit logo2"
-          class="zoom-in-text"
-        />
-        <h1>The Innovative Summit 2.0 Loading</h1>
-        <!-- <p>
-          <a href="register.html" class="btn btn-info fw-bold">Register Now!</a>
+        <h2 class="text-4xl font-bold py_text font-heading text-center mb-4">
+          Meet the Speakers
+        </h2>
+        <p class="text-center text-sm text-gray-800 mb-16">
+          Meet the thought leaders driving innovation and success, who will be
+          unveiling the strategies and stories that shaped their achievements
+          and can shape yours too.
         </p>
-        <div class="event">
-          <p>
-            Theme: A Tech and Entrepreneurship Summit <br />October 21 | 9:00AM
+        <div class="flex flex-wrap mb-16 -mx-4">
+          <!-- speaker Girl Posh -->
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            class="w-full lg:w-1/3 p-4"
+          >
+            <div
+              class="relative bg-no-repeat bg-cover rounded-xl w-full max-w-sm mx-auto border shadow"
+              style="
+                height: 400px;
+                background-image: url('/images/speakers/Girl\ Posh.jpg');
+              "
+            >
+              <div
+                class="absolute bottom-0 left-0 bg-white rounded-tr-xl rounded-bl-xl px-6 py-3"
+              >
+                <h2 class="text-sm font-bold font-heading mb-2">
+                  Ibukun Akinkuotu(Girl Posh)
+                </h2>
+                <p class="text-sm text-gray-600">Content Creator</p>
+              </div>
+            </div>
+          </div>
+          <!-- Speaker  Dr Philip Babalola -->
+          <div
+            class="w-full lg:w-1/3 p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div
+              class="relative bg-no-repeat bg-cover rounded-xl w-full max-w-sm mx-auto border shadow"
+              style="
+                height: 400px;
+                background-image: url('/images/speakers/Adegboyega.jpg');
+              "
+            >
+              <div
+                class="absolute bottom-0 left-0 bg-white rounded-tr-xl rounded-bl-xl px-6 py-3"
+              >
+                <h2 class="text-sm font-bold font-heading mb-2">
+                  Dr Philip Babalola
+                </h2>
+                <p class="text-sm text-gray-600">Founder Uvest</p>
+              </div>
+            </div>
+          </div>
+          <!-- Speaker Temmy -->
+          <div
+            class="w-full lg:w-1/3 p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div
+              class="relative bg-no-repeat bg-cover rounded-xl w-full max-w-sm mx-auto border shadow"
+              style="
+                height: 400px;
+                background-image: url('/images/speakers/temmy.jpg');
+              "
+            >
+              <div
+                class="absolute bottom-0 left-0 bg-white rounded-tr-xl rounded-bl-xl px-6 py-3"
+              >
+                <h2 class="text-sm font-bold font-heading mb-2">Only1temmy</h2>
+                <p class="text-sm text-gray-600">Defi Educator</p>
+              </div>
+            </div>
+          </div>
+          <!-- Speaker Coker -->
+          <div
+            class="w-full lg:w-1/3 p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div
+              class="relative bg-no-repeat bg-cover rounded-xl w-full max-w-sm mx-auto border shadow"
+              style="
+                height: 400px;
+                background-image: url('/images/speakers/coker.jpg');
+              "
+            >
+              <div
+                class="absolute bottom-0 left-0 bg-white rounded-tr-xl rounded-bl-xl px-6 py-3"
+              >
+                <h2 class="text-sm font-bold font-heading mb-2">Segun Coker</h2>
+                <p class="text-sm text-gray-600">Game Developer</p>
+              </div>
+            </div>
+          </div>
+          <!-- Speaker Dr Philiph -->
+          <div
+            class="w-full lg:w-1/3 p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div
+              class="relative bg-no-repeat bg-cover rounded-xl w-full max-w-sm mx-auto border shadow"
+              style="
+                height: 400px;
+                background-image: url('/images/speakers/adegboyegareal.jpg');
+              "
+            >
+              <div
+                class="absolute bottom-0 left-0 bg-white rounded-tr-xl rounded-bl-xl px-6 py-3"
+              >
+                <h2 class="text-sm font-bold font-heading mb-2">
+                  Mr Adegboyega Oyewusi
+                </h2>
+                <p class="text-sm text-gray-600">Executive Provocateur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Speaker Seyi -->
+          <div
+            class="w-full lg:w-1/3 p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div
+              class="relative bg-no-repeat bg-cover rounded-xl w-full max-w-sm mx-auto border shadow"
+              style="height: 400px; background-image: url('/images/seyi.jpg')"
+            >
+              <div
+                class="absolute bottom-0 left-0 bg-white rounded-tr-xl rounded-bl-xl px-6 py-3"
+              >
+                <h2 class="text-sm font-bold font-heading mb-2">
+                  Ogunduboye Oluwaseyifunmi
+                </h2>
+                <p class="text-sm text-gray-600">Realtor(Host)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative py-32 white overflow-hidden apphero">
+      <img
+        class="hidden absolute bottom-0 right-0"
+        src="flaro-assets/images/cta/gradient2.svg"
+        alt=""
+      />
+      <div class="relative z-10 container px-4 mx-auto">
+        <div class="flex flex-wrap lg:items-center -m-8">
+          <div class="w-full md:w-1/2 p-8">
+            <img
+              style="width: 500px"
+              class="mx-auto transform hover:translate-x-16 transition ease-in-out duration-1000 rounded-2xl border-2"
+              src="/images/highlights/pic19.jpg"
+              alt=""
+            />
+          </div>
+          <div class="w-full md:w-1/2 p-8">
+            <div class="relative md:max-w-xl">
+              <img
+                class="absolute top-0 right-0"
+                src="flaro-assets/images/cta/gradient3.svg"
+                alt=""
+              />
+              <div class="relative z-10">
+                <h2
+                  class="mb-11 text-3xl sm:text-5xl sc_text py_font tracking-wideuppercase font-bold font-heading tracking-px-n leading-none"
+                >
+                  Attend Innovative Summit 2.0 and stand a chance to win
+                </h2>
+                <div class="md:max-w-lg mt-6">
+                  <div class="flex flex-wrap items-center -m-2 mb-3">
+                    <div class="w-auto p-2">
+                      <div class="p-2 rounded-full">
+                        <i class="fas fa-check-circle text-xl sc_text"></i>
+                      </div>
+                    </div>
+                    <div class="flex-1 p-2">
+                      <p class="font-medium text-gray-200 leading-relaxed">
+                        A plot of land
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap items-center -m-2 mb-3">
+                    <div class="w-auto p-2">
+                      <div class="p-2 rounded-full">
+                        <i class="fas fa-check-circle text-xl sc_text"></i>
+                      </div>
+                    </div>
+                    <div class="flex-1 p-2">
+                      <p class="font-medium text-gray-200 leading-relaxed">
+                        Cash prizes for business owners (further
+                        details will be given)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4 md:max-w-md">
+                  <div
+                    class="p-1 xl:pl-7 inline-block md:max-w-xl w-full rounded-3xl focus-within:ring focus-within:ring-indigo-300"
+                  >
+                    <div class="flex flex-wrap items-center">
+                      <div class="w-full xl:w-auto">
+                        <div class="block">
+                          <a
+                            href="register.html"
+                            class="py-4 px-5 w-full text-sm sc_bg text-white uppercase tracking-px font-bold rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200"
+                            type="button"
+                          >
+                            Register Now
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-24 overflow-hidden">
+      <div class="container px-4 mx-auto">
+        <div class="mb-20 md:max-w-2xl text-center mx-auto">
+          <span
+            class="inline-block mb-1 text-sm py_text font-medium tracking-tighter"
+            >The Innovative Submit</span
+          >
+          <h2
+            class="font-heading mb-8 text-3xl lg:text-6xl text-gray-700 tracking-7xl lg:tracking-8xl uppercase"
+          >
+            Get in touch with us
+          </h2>
+          <p class="mb-12 text-gray-600 max-w-lg mx-auto">
+            Have a question or need directions? Get in touch with our team and
+            find the best route to the Innovative Submit.
           </p>
         </div>
-        <div class="event">
-          <p>Venue: Ago-Iwoye Town Hall, Igan Road</p>
-        </div> -->
+        <div class="max-w-4xl mx-auto px-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="w-full border-2 shadow rounded-3xl">
+              <div
+                class="flex flex-col h-full bg-gradient-radial-dark rounded-5xl"
+              >
+                <img
+                  class="w-full rounded-t-3xl"
+                  src="/images/seyi.jpg"
+                  alt=""
+                  style="height: 500px"
+                />
+                <div class="flex flex-col justify-between p-1 flex-1">
+                  <div class="w-auto p-4">
+                    <p
+                      class="mb-3 text-xl py_text font-medium tracking-2xl uppercase"
+                    >
+                      Ogunduboye Oluwaseyifunmi
+                    </p>
+                    <p class="mb-4 text-lg text-gray-700">HOST</p>
+                    <a
+                      class="mb-4 text-gray-800 inline-block text-lg font-medium underline"
+                      href="mailto:ogunduboyeseyi@gmail.com
+                      "
+                      >ogunduboyeseyi@gmail.com
+                    </a>
+                    <p class="mb-8 text-gray-800 text-lg font-medium underline">
+                      0816 488 3340
+                    </p>
+                  </div>
+                  <div class="w-auto p-4">
+                    <a
+                      class="group flex gap-2 items-center justify-center px-14 py-4 border-2 py_text border-blue-400 bg-transparent hover:text-white hover:bg-blue-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-40 rounded-full transition duration-300"
+                      href="https://wa.me/2348164883340"
+                    >
+                      <div class="mr-2.5 inline-block">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                      </div>
+                      <span
+                        class="text-sm text-center hover:text-white font-light tracking-2xl"
+                        >Message</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full border-2 shadow rounded-3xl">
+              <div
+                class="flex flex-col h-full bg-gradient-radial-dark rounded-5xl"
+              >
+                <img
+                  class="w-full rounded-t-3xl"
+                  src="/images/speakers/paula.jpg"
+                  alt=""
+                  style="height: 500px"
+                />
+                <div class="flex flex-col justify-between p-1 flex-1">
+                  <div class="w-auto p-4">
+                    <p
+                      class="mb-3 text-xl py_text font-medium tracking-2xl uppercase"
+                    >
+                      Paula Ogundeji
+                    </p>
+                    <p class="mb-4 text-lg text-gray-700">Team Lead</p>
+                    <a
+                      class="mb-4 text-gray-800 inline-block text-lg font-medium underline"
+                      href="#"
+                      >contact@sanfrancisco.co</a
+                    >
+                    <p class="mb-8 text-gray-800 text-lg font-medium underline">
+                      0812 144 1496
+                    </p>
+                  </div>
+                  <div class="w-auto p-4">
+                    <a
+                      class="group flex gap-2 items-center justify-center px-14 py-4 border-2 py_text border-blue-400 bg-transparent hover:text-white hover:bg-blue-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-40 rounded-full transition duration-300"
+                      href="https://wa.link/so6dcg"
+                    >
+                      <div class="mr-2.5 inline-block">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                      </div>
+                      <span
+                        class="text-sm text-center hover:text-white font-light tracking-2xl"
+                        >Message</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- hero section ends here -->
+    </section>
 
-    <div class="why-innovation">
-      <h3>why Innovation?</h3>
-      <div class="quote">
-        <p class="lead mb-4">
-          "Innovation distinguishes between a leader and a follower." -
-          <i> <small>Steve Jobs</small></i> <br />
-          "Creativity is thinking up new things. Innovation is doing new
-          things." - <i><small>Theodore Levitt</small></i>
-        </p>
+    <!--Embeded Map-->
+    <div class="map mb-10">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15841.836185838467!2d3.914421!3d6.9550523!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039718a79577061%3A0x75d759d038f52b7f!2sWosAm%20Arena!5e0!3m2!1sen!2sng!4v1726800895459!5m2!1sen!2sng"
+        width="800"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <section class="py-10 lg:py-20 py_bg">
+      <div class="container mx-auto px-4 mb-12 md:mb-20">
+        <div class="max-w-2xl mx-auto text-center">
+          <a
+            class="inline-block mb-8 text-gray-900 text-lg font-semibold"
+            href="#"
+          >
+            <img class="w-24" src="/images/logo_white.png" alt="" />
+          </a>
+          <ul
+            class="mb-8 flex flex-wrap space-x-8 items-center justify-center text-sm"
+          >
+            <li class="mb-2 md:mb-0">
+              <a
+                class="font-medium text-gray-200 hover:text-blue-200 uppercase"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="mb-2 md:mb-0">
+              <a
+                class="font-medium text-gray-200 hover:text-blue-200 uppercase"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="mb-2 md:mb-0">
+              <a
+                class="font-medium text-gray-200 hover:text-blue-200 uppercase"
+                href="register.html"
+                >Register</a
+              >
+            </li>
+            <li class="mb-2 md:mb-0">
+              <a
+                class="font-medium text-gray-200 hover:text-blue-200 uppercase"
+                href="gallery.html"
+                >Gallery</a
+              >
+            </li>
+          </ul>
+          <div class="flex justify-center">
+            <a
+              class="flex justify-center items-center w-10 h-10 mr-4 bg-gray-200 rounded-full"
+              href="https://x.com/innovativesumit"
+            >
+              <svg
+                class="text-blue-500 hover:text-gray-600"
+                width="20"
+                height="20"
+                viewbox="0 0 13 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.5455 2.09728C12.0904 2.29892 11.6022 2.43566 11.0892 2.49671C11.613 2.18304 12.014 1.6855 12.204 1.09447C11.7127 1.38496 11.1703 1.59589 10.5924 1.71023C10.1296 1.21655 9.47138 0.909058 8.74128 0.909058C7.34059 0.909058 6.20489 2.04475 6.20489 3.44467C6.20489 3.64322 6.2273 3.83714 6.27057 4.02257C4.16298 3.91671 2.29411 2.90696 1.0433 1.37259C0.824652 1.74653 0.700269 2.18225 0.700269 2.64736C0.700269 3.52734 1.14837 4.30379 1.82825 4.75805C1.41259 4.74415 1.02166 4.62981 0.67942 4.43975V4.47142C0.67942 5.69983 1.55399 6.72504 2.71362 6.95837C2.50116 7.01554 2.27712 7.04722 2.04534 7.04722C1.88156 7.04722 1.72318 7.031 1.56788 7.00009C1.89081 8.00831 2.8272 8.74148 3.93663 8.76158C3.06902 9.44146 1.97504 9.84552 0.786814 9.84552C0.582087 9.84552 0.38043 9.83316 0.181885 9.81076C1.30445 10.5316 2.63716 10.9519 4.06952 10.9519C8.73514 10.9519 11.2854 7.0874 11.2854 3.73595L11.2769 3.4076C11.7752 3.05219 12.2063 2.60564 12.5455 2.09728Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="flex justify-center items-center w-10 h-10 mr-4 bg-gray-200 rounded-full"
+              href="https://www.instagram.com/innovativesumit"
+            >
+              <svg
+                class="text-blue-500 hover:text-gray-600"
+                width="20"
+                height="20"
+                viewbox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4.06713 0.454529H9.9328C11.9249 0.454529 13.5456 2.07519 13.5455 4.06715V9.93282C13.5455 11.9248 11.9249 13.5454 9.9328 13.5454H4.06713C2.07518 13.5454 0.45459 11.9249 0.45459 9.93282V4.06715C0.45459 2.07519 2.07518 0.454529 4.06713 0.454529ZM9.9329 12.3839C11.2845 12.3839 12.3841 11.2844 12.3841 9.93282H12.384V4.06714C12.384 2.71563 11.2844 1.61601 9.93282 1.61601H4.06715C2.71564 1.61601 1.61609 2.71563 1.61609 4.06714V9.93282C1.61609 11.2844 2.71564 12.384 4.06715 12.3839H9.9329ZM3.57148 7.00005C3.57148 5.10947 5.10951 3.5714 7.00005 3.5714C8.8906 3.5714 10.4286 5.10947 10.4286 7.00005C10.4286 8.89056 8.8906 10.4285 7.00005 10.4285C5.10951 10.4285 3.57148 8.89056 3.57148 7.00005ZM4.75203 6.99998C4.75203 8.23951 5.76054 9.24788 7.00004 9.24788C8.23955 9.24788 9.24806 8.23951 9.24806 6.99998C9.24806 5.76036 8.23963 4.75191 7.00004 4.75191C5.76046 4.75191 4.75203 5.76036 4.75203 6.99998Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="flex justify-center items-center w-10 h-10 bg-gray-200 rounded-full"
+              href="https://www.linkedin.com/company/innovativesumit"
+            >
+              <svg
+                class="text-blue-500 hover:text-gray-600"
+                width="20"
+                height="20"
+                viewbox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8 0H1.2C0.54 0 0 0.54 0 1.2V10.8C0 11.46 0.54 12 1.2 12H10.8C11.46 12 12 11.46 12 10.8V1.2C12 0.54 11.46 0 10.8 0ZM3.6 10.2H1.8V4.8H3.6V10.2ZM2.7 3.78C2.1 3.78 1.62 3.3 1.62 2.7C1.62 2.1 2.1 1.62 2.7 1.62C3.3 1.62 3.78 2.1 3.78 2.7C3.78 3.3 3.3 3.78 2.7 3.78ZM10.2 10.2H8.4V7.02C8.4 6.54002 7.98 6.12 7.5 6.12C7.02 6.12 6.6 6.54002 6.6 7.02V10.2H4.8V4.8H6.6V5.52C6.9 5.04 7.56 4.68 8.1 4.68C9.24 4.68 10.2 5.64 10.2 6.78V10.2Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
-      <p class="lead mb-4">
-        Innovation is the driving force behind human progress. It fuels our
-        collective journey toward a better world, solving problems, creating
-        opportunities, and bringing about positive change. While innovation
-        offers boundless promise, it is not without its challenges. The fear of
-        failure can stifle innovation, as can rigid bureaucracies or
-        complacency. However, these hurdles can be overcome with the right
-        mindset and support systems that encourage experimentation and learning
-        from setbacks.
+      <p class="text-center text-sm text-gray-200 pt-8 px-4 border-t uppercase">
+        All rights reserved © The Innovative Summit 2024
       </p>
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <!-- our speakers -->
-      <h3>Our Speakers 2023</h3>
-      <br />
-      <div class="our-speakers">
-        <!-- <div class="speaker">
-          <img
-            src="https://scontent.flos1-1.fna.fbcdn.net/v/t39.30808-6/306758477_586752859579301_9206179771436501680_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeHzJOLcJG0ngroZNS6FD14jr3Q-s1PB4oCvdD6zU8HigEt22a0yu29iM-CpzcLl6TpnKuVo7SR7XYdEE41Mi9hL&_nc_ohc=_vd0NOwinsMAX8enytd&_nc_zt=23&_nc_ht=scontent.flos1-1.fna&oh=00_AfCuBmothRqwmWznHamUkNWh7hcXMP8jehhIGwMB_zIHtQ&oe=650BE3E2"
-            alt="Blessing Abeng | TIS"
-          />
-          <p>Blessing Abeng</p>
-          <small>Cofounder Ingressive for Good</small>
-        </div> -->
-        <div class="speaker">
-          <img
-            src="https://media.licdn.com/dms/image/C4D03AQE-65RGpKM4RQ/profile-displayphoto-shrink_800_800/0/1588087433119?e=1700697600&v=beta&t=8nibS9WmxW85P47WF-YBxmia5UPdM3TOkjS1w1jwzQo"
-            alt="Oluwatosin Olaseinde | TIS"
-          />
-          <p>Oluwatosin Olaseinde</p>
-          <small>Founder Money Africa</small>
-        </div>
-        <div class="speaker">
-          <img
-            src="https://media.licdn.com/dms/image/C4D03AQG7IGMU-NkAZQ/profile-displayphoto-shrink_800_800/0/1662232673314?e=1700697600&v=beta&t=bln0Z-jfxNknz9fwJyVkb-dNwzf_6ZptlNmWVXYrSxo"
-            alt="Phillip Babalola | TIS"
-          />
-          <p>Dr Philip Babalola</p>
-          <small>CEO UVEST Realty Limited</small>
-        </div>
-        <div class="speaker">
-          <img
-            src="https://media.licdn.com/dms/image/D4D03AQGdJASZ5vQxvQ/profile-displayphoto-shrink_800_800/0/1678820940322?e=1700697600&v=beta&t=V3s084JC-7nlOZr6I76xLN9zmpNBKXiWMSwpd74SfiE"
-            alt="Engr Nurudeen Lawal | TIS"
-          />
-          <p>Engr Nurudeen Lawal</p>
-          <small>MD Agro Preciso</small>
-        </div>
-        <!-- <div class="speaker">
-          <img
-            src="https://media.licdn.com/dms/image/C4E22AQHeROCDGmwMWw/feedshare-shrink_1280/0/1655722800348?e=1698278400&v=beta&t=-hvo_hKwb2cNUGQZDAcxZeq-caHW4X1958WyUzvile4"
-            alt="john oseni | TIS"
-          />
-          <p>John Oseni</p>
-          <small>Cofounder Gofree</small>
-        </div> -->
-        <div class="speaker">
-          <img
-            src="https://media.licdn.com/dms/image/D5603AQFc1h4-P_LOrw/profile-displayphoto-shrink_800_800/0/1681447278499?e=1700697600&v=beta&t=ilOdZdupSL9JrKU6ggTrPwAi-cMZo7Nd7PBvSK4xjNI"
-            alt="Fabian George | TIS"
-          />
-          <p>Fabian George</p>
-          <small>Cofounder Cuddle Realty and Escort Realty</small>
-        </div>
-        <div class="speaker">
-          <img src="images/oyewusi.jpg" alt="Adegboyega Oyewusi | TIS" />
-          <p>Adegboyega Oyewusi</p>
-          <small>Executive Provocateur</small>
-        </div>
-        <div class="speaker">
-          <img src="images/Cräcky Bröwn.jpg" alt="Cracky Brown | TIS" />
-          <p>Cräcky Bröwn</p>
-          <small>Founder Cloudde and Stylocity</small>
-        </div>
-        <div class="speaker">
-          <img
-            src="https://pbs.twimg.com/profile_images/1540807776447991808/pkdPtNHU_400x400.jpg"
-            alt="Only1Temmy | TIS"
-          />
-          <p>Only1Temmy</p>
-          <small>Defi Educator</small>
-        </div>
-      </div>
-    </div>
-
-    <!-- our speakers end -->
-
-    <!-- footer -->
-    <footer class="footer">
-      <h5>Connect With Us</h5>
-      <h6>@innovativesumit</h6>
-      <div class="socials">
-        <a
-          href="https://www.instagram.com/innovativesumit"
-          class="nav-link p-0 text-body-secondary social-link"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="#fff"
-            class="bi bi-instagram"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-            />
-          </svg>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/company/innovativesumit"
-          class="nav-link p-0 text-body-secondary social-link"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="#fff"
-            class="bi bi-linkedin"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-            />
-          </svg>
-        </a>
-
-        <a
-          href="https://www.twitter.com/innovativesumit"
-          class="nav-link p-0 text-body-secondary social-link"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="#fff"
-            class="bi bi-twitter"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-            />
-          </svg>
-        </a>
-      </div>
-      <br />
-      <p style="color: white">&copy; 2023 The Inovative summit</p>
-    </footer>
-    <!-- footer end -->
+    </section>
   </body>
-
-  <script src="index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -313,5 +926,5 @@
       }
     }
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
 </html>
